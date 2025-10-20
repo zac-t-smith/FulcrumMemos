@@ -1,0 +1,211 @@
+{
+  "site": {
+    "name": "Zac Smith",
+    "tagline": "Restructuring & Credit Investing",
+    "seo_description": "Professional portfolio showcasing restructuring and credit investing analysis, distressed debt memos, and investment research.",
+    "analytics": {
+      "ga4": ""
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/zacsmith",
+      "email": "zac.smith@example.com"
+    }
+  },
+  "resume": {
+    "headline": "Restructuring & Credit Investing",
+    "summary_md": "Restructuring analyst with experience in distressed debt, special situations, and credit investing. Focused on understanding capital structure dynamics, intercreditor agreements, and recovery analysis across leveraged credit situations.",
+    "experience": [
+      {
+        "company": "Distressed Credit Fund",
+        "title": "Credit Analyst",
+        "start": "2023-01",
+        "end": null,
+        "bullets": [
+          "Analyzed $2B+ portfolio of distressed and performing credit across retail, industrials, and chemicals sectors",
+          "Built recovery waterfalls and scenario models for 15+ restructuring situations, informing $50M+ investment decisions",
+          "Conducted deep-dive covenant and intercreditor analysis on complex capital structures",
+          "Monitored key credit metrics and developed early warning systems for portfolio stress testing"
+        ]
+      },
+      {
+        "company": "Investment Bank",
+        "title": "Restructuring Advisory Intern",
+        "start": "2022-06",
+        "end": "2022-08",
+        "bullets": [
+          "Supported restructuring advisory on $500M retail debtor-in-possession financing",
+          "Prepared liquidation analysis and creditor presentations for Chapter 11 proceedings",
+          "Built 13-week cash flow models and liquidity projections for distressed companies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "University Name",
+        "degree": "B.S. Finance",
+        "dates": "2020–2024",
+        "notes": "Concentration in Corporate Finance | GPA: 3.8/4.0"
+      }
+    ],
+    "certifications": [
+      "CFA Level I Candidate",
+      "Bloomberg Market Concepts (BMC)"
+    ],
+    "skills": [
+      "Distressed Credit Analysis",
+      "Recovery Modeling",
+      "Waterfall Analysis",
+      "Covenant Analysis",
+      "Intercreditor Agreements",
+      "Chapter 11 Process",
+      "Financial Modeling",
+      "Excel / VBA",
+      "Bloomberg Terminal"
+    ],
+    "selected_work_slugs": [
+      "lycra-second-restructuring",
+      "kirklands-case"
+    ],
+    "contact_links": {
+      "linkedin": "https://www.linkedin.com/in/zacsmith",
+      "email": "zac.smith@example.com"
+    }
+  },
+  "memos": [
+    {
+      "title": "LYCRA's Second Restructuring: When Debt Reduction Can't Fix Secular Decline",
+      "slug": "lycra-second-restructuring",
+      "company": "The LYCRA Company",
+      "ticker_or_issuer_id": "Private",
+      "memo_type": "Distressed Credit",
+      "status": "Public",
+      "date_published": "2025-10-15",
+      "analysis_date": "2025-10-01",
+      "thesis_one_liner": "Debt reduction alone cannot solve secular demand erosion in stretch fiber markets; lock-up likely but equity recovery remains highly questionable.",
+      "executive_summary_md": "## Executive Summary\n\nThe LYCRA Company faces its second major restructuring in five years, highlighting the fundamental challenge of overleveraging a business with deteriorating end-market demand.\n\n**Key Issues:**\n- Secular headwinds in traditional stretch fiber markets\n- Negative EBITDA trends and persistent cash burn\n- Massive debt burden relative to depressed enterprise value\n- Pursuing consensual lock-up to avoid Chapter 11\n\n**Investment Conclusion:** Recovery for senior secured lenders may range 10-30 cents on the dollar, while unsecured and equity likely face near-total losses.",
+      "capital_structure_md": "## Capital Structure\n\nAs of September 2025:\n\n- **Revolver:** $50M drawn\n- **Term Loan A:** $600M\n- **Second Lien:** $400M\n- **Unsecured Notes:** $350M\n- **Total Debt:** ~$1.4B\n- **Enterprise Value (est.):** $200-400M",
+      "timeline": [
+        {
+          "date": "2019-05",
+          "headline": "Leveraged Buyout",
+          "description": "PE-backed LBO loads $1.5B debt onto LYCRA at peak demand."
+        },
+        {
+          "date": "2020-03",
+          "headline": "First Restructuring",
+          "description": "COVID demand shock forces initial out-of-court restructuring."
+        },
+        {
+          "date": "2025-08",
+          "headline": "Lock-Up Proposed",
+          "description": "Company proposes consensual restructuring with 60% creditor support threshold."
+        }
+      ],
+      "restructuring_mechanics_md": "## Restructuring Mechanics\n\nThe proposed lock-up follows a classic overleveraged playbook:\n\n- **First Lien:** 70% of new equity + $150M exit term loan\n- **Second Lien:** 25% of new equity (heavily diluted)\n- **Unsecured:** 5% of new equity or 2 cents cash\n- **Equity:** Complete wipeout",
+      "scenarios": [
+        {
+          "name": "Lock-Up Success with Stabilization",
+          "probability": "35%",
+          "recovery_range": "TLA: 25-35%, 2L: 0-3%",
+          "notes": "Management executes turnaround, EBITDA stabilizes."
+        },
+        {
+          "name": "Lock-Up Success but Continued Decline",
+          "probability": "40%",
+          "recovery_range": "TLA: 15-25%, 2L: 0%",
+          "notes": "Deal closes but operations worsen. Most likely scenario."
+        },
+        {
+          "name": "Chapter 11 Filing",
+          "probability": "20%",
+          "recovery_range": "TLA: 10-20%, 2L: 0%",
+          "notes": "Holdouts block deal, forcing court process."
+        }
+      ],
+      "valuation_md": "## Valuation\n\nProbability-weighted enterprise value suggests $250-300M, significantly below total secured debt of $1.05B.",
+      "recovery_waterfall_md": "## Recovery Waterfall\n\nUsing weighted EV of $266M:\n\n- Revolver: 100% recovery\n- Term Loan A: 18-20% recovery\n- Second Lien: 0% recovery\n- Unsecured: 0% recovery",
+      "key_lessons": [
+        "Overleveraging cyclical businesses amplifies downside risk",
+        "Intercreditor priority matters enormously in inverted structures",
+        "PIK interest signals terminal problems, not temporary liquidity issues",
+        "Serial restructurings indicate fundamental business model problems"
+      ],
+      "monitoring_plan": [
+        {
+          "milestone_date": "2025-11-01",
+          "event": "Lock-Up Agreement Deadline",
+          "signal": "Extension signals creditor resistance"
+        },
+        {
+          "milestone_date": "2025-12-15",
+          "event": "Q4 2025 EBITDA Results",
+          "signal": "Sequential improvement validates turnaround thesis"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Moody's Ratings Report",
+          "url": "https://www.moodys.com",
+          "citation_md": "Downgraded LYCRA to Caa2 citing unsustainable capital structure."
+        }
+      ],
+      "tags": ["RX", "Distressed", "Chemicals", "Lock-Up"],
+      "confidential_notes": "",
+      "show_pdf_download": true,
+      "seo_description": "Analysis of LYCRA's second restructuring and recovery scenarios."
+    },
+    {
+      "title": "Kirkland's: When Your White Knight Is a Vulture",
+      "slug": "kirklands-case",
+      "company": "Kirkland's, Inc.",
+      "ticker_or_issuer_id": "KIRK (delisted)",
+      "memo_type": "Distressed Credit",
+      "status": "Public",
+      "date_published": "2025-09-20",
+      "analysis_date": "2025-09-15",
+      "thesis_one_liner": "Serial restructuring highlights that operational problems trump capital structure solutions—financial engineering cannot fix broken retail fundamentals.",
+      "executive_summary_md": "## Executive Summary\n\nKirkland's bankruptcy demonstrates the danger of confusing liquidity relief with solvency solutions. Despite multiple rescue financings, the company ultimately filed Chapter 11.\n\n**Key Takeaways:**\n- Private credit rescues often accelerate decline rather than enable turnaround\n- Negative same-store sales cannot be solved with covenant relief\n- Each financing round benefited new lenders while diluting existing creditors\n\n**Lesson:** When operational metrics deteriorate post-restructuring, it signals terminal business model failure.",
+      "capital_structure_md": "## Capital Structure\n\n### Pre-Rescue (2020)\n- ABL Revolver: $60M\n- Term Loan: $180M\n- Unsecured Notes: $100M\n\n### Post-Rescue (2022)\n- Super-Priority DIP: $40M @ L+800 → 100% recovery\n- ABL: $45M → 85% recovery\n- New Term Loan: $120M @ L+950 → 12% recovery\n- Original TL: $180M → 3% recovery",
+      "timeline": [
+        {
+          "date": "2020-08",
+          "headline": "First Rescue Financing",
+          "description": "Distressed fund provides $50M at L+800 with aggressive covenants."
+        },
+        {
+          "date": "2022-06",
+          "headline": "Second Rescue + Priming",
+          "description": "$40M DIP-style facility primes existing term loan."
+        },
+        {
+          "date": "2024-03",
+          "headline": "Chapter 11 Filing",
+          "description": "Files bankruptcy, proposes sale process. No bids emerge."
+        }
+      ],
+      "restructuring_mechanics_md": "## Why Rescue Financings Failed\n\n1. Adverse selection: Companies needing L+800+ capital are typically unfixable\n2. Capital structure games: Each rescue subordinated previous lenders\n3. Management moral hazard: Expensive rescues delayed hard decisions\n4. Operational reality: Liquidity cannot fix declining sales",
+      "scenarios": [],
+      "valuation_md": "## Liquidation Reality\n\n**Asset Liquidation:**\n- Inventory (GOB sale): $45M\n- Fixtures: $8M\n- IP & brand: $5M\n- **Total:** $58M\n\n**Less Admin:** $(15M)\n\n**Net Available:** $43M (barely covered DIP and ABL)",
+      "recovery_waterfall_md": "## Recovery Waterfall\n\n- Super-Priority DIP: 100%\n- ABL Revolver: 84%\n- New Term Loan: 12%\n- Original TL: 3%\n- Unsecured: 0%",
+      "key_lessons": [
+        "High-yield rescue financings destroy value for all parties",
+        "Operational deterioration cannot be fixed with capital structure alone",
+        "Each priming transaction creates conflicts that reduce enterprise value",
+        "Covenant relief requests are terminal signals",
+        "Super-priority structures in non-bankruptcy contexts signal imminent failure"
+      ],
+      "monitoring_plan": [],
+      "sources": [
+        {
+          "label": "Kirkland's Chapter 11 Docket",
+          "url": "https://www.kccllc.net/kirklands",
+          "citation_md": "Bankruptcy court filings and asset sale motions."
+        }
+      ],
+      "tags": ["RX", "Retail", "Distressed", "Lessons"],
+      "confidential_notes": "",
+      "show_pdf_download": true,
+      "seo_description": "Case study of Kirkland's bankruptcy and failed rescue financings."
+    }
+  ]
+}
